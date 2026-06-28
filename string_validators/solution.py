@@ -1,10 +1,6 @@
 if __name__ == '__main__':
     str = input()
-    alnum = False
-    alpha = False
-    digit = False
-    lower = False
-    upper = False
+    alnum = alpha = digit = lower = upper = False
 
     for letter in str:
         if letter.isalnum():
